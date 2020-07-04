@@ -1,0 +1,21 @@
+1)Allez dans votre dossier de mission (Altis_Life.LeNomDeVotreMap)
+
+2)Puis, allez le dossier Config, et ouvrez le fichier Config_Master.hpp
+
+3)Cherchez ces lignes et modifiez les comme bon vous semble ! Ici, c'est soit true (=vrai) soit false (=faux) !
+
+    save_virtualItems = true; // Sauvegarder les vItems dans l'inventaire du joueur
+    save_playerStats = true; //Sauvegarder les stats du joueur
+    save_civilian_weapons = true; //Sauvegarder le menu i du joueur
+    save_civilian_position = true; //Sauvegarder la position du joueur
+    save_civilian_position_restart = true; 
+    save_civilian_positionStrict = false;
+
+    save_vehicle_virtualItems = true; //Sauvegarder l'inventaire virtuel des véhicules
+    save_vehicle_items[] = { ""}; //Mettre les classnames des items à sauvegarder dans les véhicules
+    save_vehicle_inventory = true; //Sauvegarder l'inventaire des véhicules
+    save_vehicle_fuel = true; //Sauvegarder le niveau d'essence des véhicules
+    save_vehicle_damage = true; //Sauvegarder les dégats sur les véhicules
+    save_vehicle_illegal = true; //Sauvegarder les items illégaux dans les véhicules
+    
+    Vous avez terminé !
