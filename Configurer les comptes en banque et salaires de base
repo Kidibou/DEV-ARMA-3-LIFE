@@ -1,0 +1,18 @@
+1)Allez dans votre dossier de mission (Altis_Life.LeNomDeVotreMap)
+
+2)Puis, allez le dossier Config, et ouvrez le fichier Config_Master.hpp
+
+3)Cherchez ces lignes et modifiez les comme bon vous semble !
+
+bank_cop = 15000; //Compte en banque de base de la police
+bank_civ = 15000; //Compte en banque de base des civils
+bank_med = 15000; //Compte en banque de base des medics
+
+paycheck_cop = 500; //Salaire de la police
+paycheck_civ = 25; //Salaire des civils
+paycheck_med = 500; //Salaire des medics
+
+paycheck_period = 5; //Temps entre chaque salaire
+bank_transferTax = .05; //Montant des taxes sur les transferts d'argent depuis l'ATM
+
+Vous avez terminé !
